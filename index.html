@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Download App</title>
+
+<style>
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    min-height:100vh;
+    background:#111;
+}
+
+/* BACKGROUND */
+.main{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.55)),
+        url("file_00000000fb9c7207925907444472e700.png");
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+}
+
+/* CENTER BOX */
+.box{
+    width:100%;
+    max-width:400px;
+    text-align:center;
+    padding:30px 20px;
+}
+
+/* LOGO */
+.logo{
+    width:140px;
+    height:140px;
+    object-fit:contain;
+    border-radius:50%;
+    background:white;
+    padding:5px;
+    box-shadow:0 5px 25px rgba(0,0,0,0.5);
+    margin-bottom:25px;
+}
+
+/* DOWNLOAD BUTTON */
+.download{
+    display:block;
+    width:100%;
+    padding:16px;
+    background:#ff7a00;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.4);
+    margin-bottom:25px;
+}
+
+.download:active{
+    transform:scale(0.97);
+}
+
+/* MESSAGE BOX */
+.letter{
+    background:rgba(255,255,255,0.96);
+    color:#222;
+    border-radius:18px;
+    padding:22px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.35);
+}
+
+/* TITLE */
+.letter-title{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+/* MESSAGE */
+.message{
+    text-align:center;
+}
+
+.message p{
+    margin:0 0 15px;
+    font-size:17px;
+    line-height:1.6;
+}
+
+/* INFO CARDS */
+.info-card{
+    background:#f5f5f5;
+    border-radius:12px;
+    padding:15px;
+    margin-top:12px;
+    line-height:1.6;
+    box-shadow:0 3px 10px rgba(0,0,0,0.12);
+}
+
+.info-card strong{
+    font-size:18px;
+}
+
+/* MOBILE */
+@media(max-width:400px){
+
+    .box{
+        padding:20px 10px;
+    }
+
+    .logo{
+        width:125px;
+        height:125px;
+    }
+
+    .download{
+        font-size:18px;
+    }
+
+    .letter{
+        padding:18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="box">
+
+        <!-- LOGO -->
+        <img
+            src="file_000000004b44820781136fc527913b69.png"
+            class="logo"
+            alt="Logo"
+        >
+
+        <!-- DOWNLOAD BUTTON -->
+        <a
+            href="app-debug.apk"
+            class="download"
+            download
+        >
+            ⬇ DOWNLOAD APK
+        </a>
+
+        <!-- MESSAGE -->
+        <div class="letter">
+बालाजी दास सट्टा ऐप
+            <div class="letter-title">
+                आपका स्वागत है 👋
+            </div>
+
+            <div class="message">
+
+                <p>
+                    हमारे ऐप में आपका स्वागत है।
+        
+                </p>
+बालाजी दास सट्टा ऐप में आपका स्वागत है।
+ </p>
+इस ऐप में आपको आकर्षक रेट मिलते हैं:
+ </p>
+₹1 के ₹92
+₹10 के ₹920
+ </p>
+साथ ही, रेफर करने पर आपके द्वारा रेफर किए गए उपयोगकर्ताओं की हर गेम पर 5% तक कमीशन प्राप्त हो सकता है।
+ </p>
+अभी ऐप डाउनलोड करें और शुरुआत करें।
+                 </p>
+                <div class="info-card">
+                    📱 <strong>ऐप डाउनलोड करें</strong><br>
+                    नीचे दिए गए बटन पर क्लिक करके ऐप डाउनलोड करें।
+                </div>
+ <!-- DOWNLOAD BUTTON -->
+        <a
+            href="app-debug.apk"
+            class="download"
+            download
+        >
+            ⬇ DOWNLOAD APK
+        </a>
+                <div class="info-card">
+                    ⚡ <strong>आसान और तेज़</strong><br>
+                    ऐप को अपने डिवाइस पर इंस्टॉल करके इस्तेमाल करें।
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
